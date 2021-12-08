@@ -4,9 +4,9 @@ var GoogleAuth; // Google Auth object.
 function initClient() {
   gapi.client
     .init({
-      apiKey: "AIzaSyBZaETX53auXyRPe5Ob5HgbCDRPuyoZUB8",
+      apiKey: "",
       clientId:
-        "79489010481-gn0gnn3vtbfd9cp1tq73ruejgnbpiodk.apps.googleusercontent.com",
+        "",
       scope: "https://www.googleapis.com/auth/drive.metadata.readonly",
       discoveryDocs: [
         "https://www.googleapis.com/discovery/v1/apis/drive/v3/rest",
